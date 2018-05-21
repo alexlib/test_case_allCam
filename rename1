@@ -1,0 +1,16 @@
+#!/bin/sh
+cd img
+for i in $( seq 100001 154000 )
+do 
+#mv cam1.$i cam1.$i.tif
+
+mv cam1.$i.tif cam1.$i
+#mv cam2.$i.tif cam2.$i
+
+#mv cam3.$i.tif cam3.$i
+
+#mv cam4.$i.tif cam4.$i
+
+done
+ 
+exit 0
